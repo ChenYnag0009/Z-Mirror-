@@ -271,7 +271,7 @@ name_sub = r"""
 <b>Name Substitution</b>: -ns
 
 <b>Name Substitution</b>: -ns
-/cmd link -ns script/code/s | mirror/leech | tea/ /s | clone | cpu/ | \[ZEE\]/ZEE | \\text\\/text/s
+/cmd link -ns script/code/s | mirror/leech | tea/ /s | clone | cpu/ | \\text\\/text/s
 This will affect on all files. Format: wordToReplace/wordToReplaceWith/sensitiveCase
 Word Subtitions. You can add pattern instead of normal text. Timeout: 60 sec
 NOTE: You must add \ before any character, those are the characters: \^$.|?*+()[]{}-
@@ -280,7 +280,7 @@ NOTE: You must add \ before any character, those are the characters: \^$.|?*+()[
 4. tea will get replaced by space with sensitive case
 5. clone will get removed
 6. cpu will get replaced by space
-7. [ZEE] will get replaced by ZEE
+7.  will get replaced @phu_kdet
 8. \text\ will get replaced by text with sensitive case
 """
 
