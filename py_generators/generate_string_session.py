@@ -11,7 +11,7 @@ API_HASH = input("Enter API HASH: ")
 PHONE_NO = input("Enter your phone number including country code. Ex: +917000000001: ")
 
 with Client(
-    name="ZEE",
+    name="ChenYang",
     in_memory=True,
     api_id=API_KEY,
     api_hash=API_HASH,
